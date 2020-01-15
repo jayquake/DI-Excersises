@@ -1,0 +1,41 @@
+body {font-family: 'Lato', sans-serif;
+}
+.grid-container{
+	display: grid;
+	grid-template-areas: 
+					"head head head head"
+					"photo photo experience experience"
+					"photo photo experience experience"
+					"contact contact contact contact"
+					"footer footer footer footer";
+}
+
+.header {
+  grid-area: head;
+  background-color: indianred;
+}
+.photo {
+  grid-area: pho;
+  background: blue;
+}
+.about {
+  grid-area: about;
+  background-color: yellow;
+}
+.footer {
+  grid-area: footer;
+  background-color: pink;
+}
+.contact{
+	grid-area: contact;
+	background-color: green;
+}
+.experience{
+	grid-area: experience;
+	background color: grey;
+}
+}						
+
+h1{
+	margin: auto;
+}

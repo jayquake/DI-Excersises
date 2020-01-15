@@ -1,0 +1,75 @@
+@media only screen and (max-width: 600px) {
+ 	body {
+  		background-color: lightgrey;
+  		margin: center;
+
+  	}
+
+	.container{
+		display: grid;
+		grid-gap: 5px;
+		width: span;
+		margin: auto;
+		border-color: red 50px;
+		
+	
+		
+	}
+
+	.head{
+		background-color: indianred;
+		grid-area:head;
+		height: 110px;
+		border-color: transparent;
+		border-radius: 5%;
+		grid-column-start: 1;
+		grid-column-end: 4;
+
+	}
+
+	.side{
+		background-color: skyblue;
+		grid-area: side;
+		height: 110px;
+		grid-column-start: 1;
+		grid-column-end: 4;
+		grid-row-start: 2;
+		grid-row-end: 4
+
+	}
+
+	.photo1{
+		background-color: orange;
+		grid-area:pho;
+		height: 110px;
+		grid-column-start: 1;
+		grid-column-end: 3;
+		grid-row-start: 4;
+		grid-row-end: 6;
+
+	}
+	.photo2{
+		background-color: lightblue;
+		grid-area:phot;
+		height: 110px;
+		border: solid lightblue;
+		border-radius: 20%;
+		grid-column-start: 2;
+		grid-column-end: 4;
+		grid-row-start: 2;
+		grid-row-end: 4;
+	}
+	.content{
+		grid-area:con;
+		background-color: blue;
+		height: 110pc;
+		grid-column-start: 1;
+		grid-column-end: 4;
+	}
+	.content2{
+		grid-area:cont;
+		background-color: yellow;
+		height: 110px;
+
+	}
+}

@@ -1,0 +1,68 @@
+body{
+	font-family: 'Baskervville', serif;
+	background-image: url(https://images.unsplash.com/photo-1533035353720-f1c6a75cd8ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80);
+	background-origin: center;
+	margin: auto;
+	background-size: 650px 920px;
+	background-color: (211, 211, 211.03);
+  	text-shadow: 1px 0.15px;
+
+}
+
+.container > div{
+	background:rgb(223, 230, 236);
+	padding:4em;
+}
+.container > div:nth-child(odd){
+	background:grey;
+	height: 3em;	
+}
+
+.skills{
+	
+	grid-column-start: 1;
+	grid-column-end: 2
+	grid-row-start:4;
+	grid-row-end: 4;
+	text-align: top;
+	margin: center;
+}
+
+.name{
+	
+}
+
+.about{
+	grid-column-start: 2;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 4;
+}
+.head{
+	font-size: 40px;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1 ;
+	grid-row-end: 3;
+	text-align: center;
+
+}
+.contact{
+	display: grid;
+	 grid-column-start: 2;
+	 grid-column-end: 4;
+	 grid-row-start: 4;
+
+
+}
+.container{
+	display: grid;
+	grid-column-gap: 1em;
+	grid-row-gap: 1em;
+
+	grid-area: [row1-start] "contact header header header" 1em [row1-end]
+		 		[row2-start] "pic pic about about" 1em [row2-end]
+	 	[row3-start] "skills about about" 1em[row3-end]
+	 	[row4-start] "skills skills skills skills" 1em[row4-end];
+	
+}	

@@ -1,0 +1,40 @@
+html, body{
+	margin:0;
+	padding:0;
+	border:2px red;
+	box-sizing: border-box;
+}
+.container{
+	display: grid;
+	grid-template-areas: 
+		"head head"
+		"pic about";
+	grid-gap: 5px;
+	border-color: solid red;
+}
+
+.header{
+	grid-area: head;
+}
+
+.pic{
+	grid-area: pic;
+}
+.about{
+	grid-area: about;
+}
+
+}
+@media only screen and (min-width: 800px) 
+  {
+ .container{
+	display: grid;
+	grid-template-areas: 
+		"head head"
+		"pic about";
+	grid-gap: 5px;
+	border:yellow solid;
+	}
+@media only screen and (min-width: 1200px){
+	
+}

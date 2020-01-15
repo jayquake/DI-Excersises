@@ -1,0 +1,117 @@
+
+    	
+  
+.container{
+display: grid;
+box-sizing: border-box;
+border-color: transparent;
+border-radius: 15%;
+text-align: center;
+}
+@media only screen and (min-width: 600px) {
+  body { background-color: grey}
+
+  	.outer{
+  		display: flex;
+  		flex-wrap: wrap-reverse;
+  		flex-direction: column-reverse;
+  		justify-content: flex-start
+  		fl
+
+  	}
+  	.head{
+		font-family: 'Gelasio', serif;
+		font-size: 80px;
+		text-shadow: .05;
+		text-align: center;
+		background-color: darkred;
+		border:outset darkred;
+		grid-column-start: 1;
+		grid-column-end: 4;
+		grid-row: auto;
+		height: 230px;
+
+}
+	.menu{
+		background-color: darkgreen;
+		border:outset darkgreen;
+		height: 145px;
+		grid-column-start: 2;
+		grid-column-end: 5;
+		grid-row-start: 2;
+		grid-row-end: 4;
+		box-sizing: border-box;
+	}
+	.pics{
+		margin: auto;
+		display:flex;
+		flex-direction: column; 
+		background-color: darkorange;
+		border:outset darkorange;
+		grid-column-start: 2;
+		grid-column-end: 4;
+		grid-row-start: 3;
+		grid-row-end: 5;
+		height: 450px;
+		box-sizing: border-box;
+
+}
+	.side{
+
+		background-color: blue;
+		grid-column-start:1;
+		grid-column-end: 3;
+		grid-row-start: 3;
+		grid-row-end: 5;
+		margin: left;
+		transition: smooth;
+		width: auto;
+		box-sizing: border-box;
+
+
+	}
+}
+
+@media only screen and (max-width:600px) 
+{
+  body { background-color: red;
+  }
+
+	.head{
+		font-family: 'Roboto', sans-serif;
+		font-size: 80px;
+		text-shadow: .05;
+		text-align: center;
+		background-color: darkred;
+		border:outset darkred;
+		grid-column-start: 1;
+		grid-column-end: 4;
+		height: 230px;
+
+}
+	.menu{
+		background-color: darkgreen;
+		border:outset darkgreen;
+		height: 145px;
+		grid-column-start: 1;
+		grid-column-end: 4;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+	.pics{
+		display:flex;
+		flex-direction: column; 
+		background-color: darkorange;
+		border:outset darkorange;
+		grid-column-start: 1;
+		grid-column-end: 4;
+		grid-row-start: 3;
+		grid-row-end: 5;
+		height: 450px;
+
+}
+
+
+
+}
+}
