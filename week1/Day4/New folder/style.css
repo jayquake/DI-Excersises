@@ -16,6 +16,20 @@
 	background-color: moccasin;
 }
 
-#PALEGOLDENROD{
+#palegoldenrod{
 	background-color: palegoldenrod;
 }
+body{
+	background-color: burlywood;
+}
+#active{
+	margin: auto;
+	align-content: center;
+	opacity: blur;
+}
+/*.floatytext{
+	justify-content: right;
+	margin: auto;
+	text-align: center;
+	text-orientation: sideways;
+}*/
