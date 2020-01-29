@@ -1,0 +1,14 @@
+.box {
+  border: 1px dashed #000000;
+}
+.box-red {
+  border: 1px solid red;
+}
+.box-center{
+  text-align: center;
+}
+.box-grid{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns:  repeat(5, 1fr);
+}
