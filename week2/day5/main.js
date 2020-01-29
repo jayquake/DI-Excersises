@@ -1,13 +1,6 @@
-function isNum ("chr");{
-	let str = ' abcdefghijklmnopqrstuvwxyz';
-	for ( let i = 0; i < str.length; i++) {
-		if (chr.toLowercase == str[i]) {
-			return true;
-		}
+const myword = 'hello';
+var tall = []; 
+for (var i = 0; i < myword.length; i++) {
+	tall.push(myword[i])
 	}
-	return false;
-}
-let is_num = ' '
-try and catch??(
-object.enteries(obj).forEach( item =>)
- 
+console.log(tall[0].toUpperCase()+ myword.slice(1))

@@ -10,7 +10,7 @@ A message will announce the player his victory and stop the game.
 Good Luck*/
 /*the first and last letter is in the array is being displayed using 
 .push  */
-console.log('hi')
+console.log('firstLast()')
 const myword = 'unregistered';
 var firstLast = []; 
 var whattoshow = [];
@@ -49,19 +49,3 @@ askuser()
 	/*for (var i = 0; i < Things.length; i++) {
 		Things[i]
 	}
-}
-
-
-
-
-function guessing_Game (char){
-let userguess = prompt("Take a Guess");
-	for (var i = 10; i >= 0 ; i--) {
-		if (firstLast[i] == userguess){
-			return alert(' almost there keep going!')
-		}
-		else(i =>10)
-			console.log ("you have " + , i , + "attempts")
-			alert("no more chances ")
-	}
-}*/
